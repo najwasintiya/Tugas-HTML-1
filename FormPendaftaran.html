@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Pendaftaran</title>
+    </head>
+    <body>
+
+        <nav>
+            <a href="./TugasHTML.html">Kembali ke Home</a>
+        </nav>
+
+        <h1>Formulir Pendaftaran Siswa</h1>
+
+        <div>
+            <label>Nama Calon Siswa:</label>
+            <input type="text"/>
+        </div>
+        <br/>
+
+        <div>
+            <label>Tempat/Tanggal Lahir:</label>
+            <input type="date"/>
+        </div>
+        <br/>
+
+        <div>
+            <label>Agama:</label>
+            <select>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Budha">Budha</option>
+                <option value="Hindu">Hindu</option>
+                <option value="lainya">lainnya</option>
+            </select>
+        </div>
+        <br/>
+
+        <div>
+            <label>Alamat:</label>
+            <textarea type="textarea"></textarea>
+        </div>
+        <br/>
+       
+        <div>
+            <label>No.Telp/HP:</label>
+            <input type="number"/>
+        </div>
+        <br/>
+
+        <div>
+            <label>Jenis Kelamin:</label>
+            <label>
+                <input type="radio" id="jenkelPria" name="jenkel" value="Pria" checked/>
+                Pria
+            </label>
+            <label>
+                <input type="radio" id="jenkelWanita" name="jenkel" value="Wanita"/> 
+                Wanita
+            </label>
+        </div>
+        <br/>
+
+        <div>
+            <label>Hobi:</label>
+            <label>
+                <input type="checkbox" name="paskibra" value="Paskibra" checked />
+                Paskibra
+            </label>
+           <label>
+                <input type="checkbox" name="futsal" value="Futsal"/>
+                Futsal
+           </label>
+           <label>
+            <input type="checkbox" name="basket" value="Basket"/>
+            Basket
+            </label>
+            <label>
+                <input type="checkbox" name="renang" value="Renang"/>
+                Renang
+            </label>
+            <label>
+                <input type="checkbox" name="tari" value="Tari"/>
+                Tari
+            </label>
+        </div>
+        <br/>
+
+        <div>
+            <label>Pas Foto:</label>
+            <input type="file" multiple />
+        </div>
+        <br/>
+
+        <div>
+            <button type="button"> Kirim</button>
+        </div>
